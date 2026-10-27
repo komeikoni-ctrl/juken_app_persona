@@ -1,0 +1,47 @@
+{
+    "headers": [
+        {
+            "headers": [
+                {
+                    "key": "Cache-Control",
+                    "value": "public, max-age=0, must-revalidate"
+                }
+            ],
+            "source": "/sw.js"
+        },
+        {
+            "headers": [
+                {
+                    "key": "Cache-Control",
+                    "value": "public, max-age=0, must-revalidate"
+                }
+            ],
+            "source": "/js/version.js"
+        },
+        {
+            "headers": [
+                {
+                    "key": "Cache-Control",
+                    "value": "public, max-age=2592000"
+                }
+            ],
+            "source": "/icon.png"
+        },
+        {
+            "headers": [
+                {
+                    "key": "Cache-Control",
+                    "value": "public, max-age=86400, must-revalidate"
+                }
+            ],
+            "source": "/manifest.json"
+        }
+    ],
+    "outputDirectory": "public",
+    "rewrites": [
+        {
+            "source": "/api/:path*",
+            "destination": "https://juken-app-sigma.vercel.app/api/:path*"
+        }
+    ]
+}
