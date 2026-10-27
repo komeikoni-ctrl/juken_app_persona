@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#0D0D0D"/>
+  <polygon points="0,392 512,232 512,300 0,460" fill="#E60012"/>
+  <polygon points="256,52 293.5,157.5 405,159.5 316.5,226.5 348,333 256,268.5 164,333 195.5,226.5 107,159.5 218.5,157.5" fill="#FFFFFF"/>
+  <text x="256" y="452" text-anchor="middle" font-family="'Arial Black',Arial,sans-serif" font-size="64" font-weight="900" letter-spacing="4" fill="#FFFFFF">2027</text>
+</svg>
