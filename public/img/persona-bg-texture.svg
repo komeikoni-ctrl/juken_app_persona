@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="480" viewBox="0 0 480 480">
+  <defs>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="6" cy="6" r="3.2" fill="#0D0D0D" opacity="0.16"/>
+    </pattern>
+    <pattern id="dots2" width="26" height="26" patternUnits="userSpaceOnUse" patternTransform="translate(13,13)">
+      <circle cx="6" cy="6" r="2" fill="#0D0D0D" opacity="0.10"/>
+    </pattern>
+  </defs>
+  <rect width="480" height="480" fill="#FFFFFF"/>
+  <rect width="480" height="480" fill="url(#dots)"/>
+  <rect width="480" height="480" fill="url(#dots2)"/>
+  <polygon points="-40,330 520,180 520,238 -40,388" fill="#E60012"/>
+  <polygon points="-40,398 520,248 520,262 -40,412" fill="#0D0D0D"/>
+  <g fill="#0D0D0D">
+    <polygon points="60,40 65.9,53.1 80,53.6 68.2,62.9 71.5,77.4 60,68.6 48.5,77.4 51.8,62.9 40,53.6 54.1,53.1" transform="scale(1.4) translate(-18,-12)"/>
+    <polygon points="430,60 433.5,67.8 442,68.1 435.1,73.5 437,82 430,76.8 423,82 424.9,73.5 418,68.1 426.5,67.8"/>
+    <polygon points="392,392 395.5,399.8 404,400.1 397.1,405.5 399,414 392,408.8 385,414 386.9,405.5 380,400.1 388.5,399.8"/>
+    <polygon points="96,428 98.6,433.9 105,434.1 399,0 0,0" fill="none"/>
+    <polygon points="96,428 98.6,433.9 105,434.1 99.9,438.2 101.3,444.5 96,440.9 90.7,444.5 92.1,438.2 87,434.1 93.4,433.9"/>
+  </g>
+  <g fill="#E60012">
+    <polygon points="238,88 240.6,93.9 247,94.1 241.9,98.2 243.3,104.5 238,100.9 232.7,104.5 234.1,98.2 229,94.1 235.4,93.9"/>
+  </g>
+</svg>
