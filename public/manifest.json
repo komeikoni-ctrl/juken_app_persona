@@ -1,0 +1,26 @@
+{
+  "name": "受験管理アプリ 2027 PERSONA 2.0",
+  "short_name": "受験P5-2.0",
+  "description": "学習時間・模試・志望校・出願をまとめて管理し、AIコーチに相談できる受験生用アプリ",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "lang": "ja",
+  "background_color": "#0D0D0D",
+  "theme_color": "#E60012",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}
